@@ -8,7 +8,7 @@ public class OrangeHRMTest extends BaseTest {
 	
 	@Test(priority=1)
 	public void urlTest() {
-		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/?");
+		//driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/?");
 		String url = driver.getCurrentUrl();
 		System.out.println(url.contains("orangehrm"));
 		

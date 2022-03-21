@@ -9,7 +9,7 @@ public class OpenCartTest extends BaseTest {
 	
 	@Test(priority=1)
 	public void registerLinkTest() {
-		driver.get("https://demo.opencart.com/index.php?route=account/login");
+		//driver.get("https://demo.opencart.com/index.php?route=account/login");
 		boolean flag = driver.findElement(By.linkText("Register")).isDisplayed();
 		Assert.assertTrue(flag);
 		

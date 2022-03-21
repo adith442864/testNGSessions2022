@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MyTests.DependsOnMethodsConcept">
+      <class name="AppTests.GoogleTest">
         <methods>
-          <include name="homePageTest"/>
-          <include name="loginTest"/>
-          <include name="searchTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="googlesearchBtnTest"/>
         </methods>
-      </class> <!-- MyTests.DependsOnMethodsConcept -->
+      </class> <!-- AppTests.GoogleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
