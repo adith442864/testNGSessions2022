@@ -1,0 +1,29 @@
+testNG
+testng/junit
+
+unit testing framework
+Python: pytest, unittest
+C# : NUnit
+php: phpunit
+JS: Jasmine, Mocha
+
+sel + testng --> Automation TCs
+api(RestAssured) + testng
+Appium (Mobile) + testng
+------------------------------------------
+global pre condition -- Annotations(@)
+pre condition -- Annotations
+
+@Test
+steps to reproduce
+selenium steps
+
+Assertions
+act vs exp results
+status -> pass/fail/skip
+
+post annotations
+
+
+Test Report --> HTML Test Report --> Extent Report/Allure Report
+
